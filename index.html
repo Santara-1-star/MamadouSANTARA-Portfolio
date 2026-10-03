@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="fr" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de Mamadou Santara, développeur web junior spécialisé en HTML, CSS, JavaScript et Django."
+    />
+    <title>Mamadou Santara | Développeur web junior</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#accueil" aria-label="Accueil">MS<span>.</span></a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Ouvrir le menu"
+        aria-expanded="false"
+      >
+        <span></span><span></span>
+      </button>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a href="#a-propos" data-fr="À propos" data-en="About">À propos</a>
+        <a href="#competences" data-fr="Savoir-faire" data-en="Expertise"
+          >Savoir-faire</a
+        >
+        <a href="#projets" data-fr="Projets" data-en="Projects">Projets</a>
+        <a href="#parcours" data-fr="Parcours" data-en="Background">Parcours</a>
+        <a href="#formation" data-fr="Formation" data-en="Education"
+          >Formation</a
+        >
+        <a
+          href="#contact"
+          class="nav-contact"
+          data-fr="Me contacter ↗"
+          data-en="Contact me ↗"
+          >Me contacter ↗</a
+        >
+      </nav>
+      <div class="header-actions">
+        <button
+          class="language-toggle"
+          type="button"
+          aria-label="Changer de langue"
+        >
+          <span class="lang-fr">FR</span><span class="toggle-line"></span
+          ><span class="lang-en">EN</span>
+        </button>
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Changer de thème"
+        >
+          <span class="sun">☼</span><span class="moon">◐</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-wrap" id="accueil">
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="status-dot"></span>
+            <span
+              data-fr="Disponible pour une immersion"
+              data-en="Available for an opportunity"
+              >Disponible pour une immersion</span
+            >
+          </div>
+          <h1
+            data-fr="Je transforme les idées en expériences <em>digitales.</em>"
+            data-en="I turn ideas into <em>digital experiences.</em>"
+          >
+            Je transforme les idées en expériences <em>digitales.</em>
+          </h1>
+          <p
+            class="hero-intro"
+            data-fr="Diplômé en informatique de gestion, je conçois des interfaces utiles, claires et accessibles. Je recherche une première immersion professionnelle pour apprendre, contribuer et grandir au sein d'une équipe."
+            data-en="With a degree in management information systems, I build useful, clear and accessible interfaces. I am looking for a first professional opportunity to learn, contribute and grow within a team."
+          >
+            Diplômé en informatique de gestion, je conçois des interfaces
+            utiles, claires et accessibles. Je recherche une première immersion
+            professionnelle pour apprendre, contribuer et grandir au sein d'une
+            équipe.
+          </p>
+          <div class="hero-actions">
+            <a
+              href="#projets"
+              class="button button-primary"
+              data-fr="Voir mes projets"
+              data-en="See my work"
+              >Voir mes projets <span>↗</span></a
+            >
+            <a
+              href="Mamadou SANTARA CV.pdf.pdf"
+              download="Mamadou-Santara-CV.pdf"
+              class="text-link"
+              data-fr="Télécharger mon CV ↓"
+              data-en="Download my CV ↓"
+              >Télécharger mon CV ↓</a
+            >
+          </div>
+          <div class="hero-meta">
+            <span>Djicoroni-Para, Bamako</span><span>+223 92 37 90 07</span
+            ><span>Anglais conversationnel</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Portrait de Mamadou SANTARA">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="code-card">
+            <div class="window-top">
+              <i></i><i></i><i></i><span>Mamadou SANTARA</span>
+            </div>
+            <img
+              src="./Profile-image.png"
+              alt="Portrait de Mamadou SANTARA"
+              class="profile-img"
+            />
+          </div>
+          <div class="floating-note note-top">
+            { créatif<br /><span>&amp;&amp;</span> curieux }
+          </div>
+          <div class="floating-note note-bottom">
+            based in<br /><b>Bamako, ML</b>
+          </div>
+        </div>
+        <div class="scroll-cue">
+          <span>↓</span
+          ><span data-fr="Défiler pour explorer" data-en="Scroll to explore"
+            >Défiler pour explorer</span
+          >
+        </div>
+      </section>
+
+      <marquee class="marquee" aria-hidden="true">
+        <div>
+          WEB DEVELOPMENT <span>✦</span> PROJECT MANAGEMENT
+          <span>✦</span> DIGITAL CURIOSITY <span>✦</span> WEB DEVELOPMENT
+          <span>✦</span>
+        </div>
+      </marquee>
+
+      <section class="about section-wrap" id="a-propos">
+        <div class="section-label">
+          <span>01</span
+          ><span data-fr="À propos" data-en="About">À propos</span>
+        </div>
+        <div class="about-content">
+          <h2
+            data-fr="Un développeur junior <em>curieux et engagé.</em>"
+            data-en="A curious and <em>committed junior developer.</em>"
+          >
+            Un développeur junior <em>curieux et engagé.</em>
+          </h2>
+          <div class="about-text">
+            <p
+              data-fr="Je suis Mamadou SANTARA, diplômé en informatique de gestion et développeur web junior. J'aime transformer une idée en solution claire, utile et accessible, en accordant autant d'importance à l'expérience utilisateur qu'à la qualité du travail."
+              data-en="I am Mamadou SANTARA, a management information systems graduate and junior web developer. I enjoy turning ideas into clear, useful and accessible solutions, with equal attention to user experience and quality work."
+            >
+              Je suis Mamadou SANTARA, diplômé en informatique de gestion et
+              développeur web junior. J'aime transformer une idée en solution
+              claire, utile et accessible, en accordant autant d'importance à
+              l'expérience utilisateur qu'à la qualité du travail.
+            </p>
+            <p
+              data-fr="Je recherche une première immersion professionnelle pour contribuer à des projets concrets, développer mes compétences en gestion de projet et progresser au contact de professionnels. Je m'intéresse également à l'anglais, que je pratique à un niveau conversationnel pour élargir mes échanges et ma veille technologique."
+              data-en="I am looking for a first professional opportunity to contribute to real projects, strengthen my project management skills and grow alongside experienced professionals. I am also interested in English and practise it at a conversational level to broaden my communication and technical learning."
+            >
+              Je recherche une première immersion professionnelle pour
+              contribuer à des projets concrets, développer mes compétences en
+              gestion de projet et progresser au contact de professionnels. Je
+              m'intéresse également à l'anglais, que je pratique à un niveau
+              conversationnel pour élargir mes échanges et ma veille
+              technologique.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section-wrap" id="competences">
+        <div class="section-label">
+          <span>02</span
+          ><span data-fr="Mon savoir-faire" data-en="My expertise"
+            >Mon savoir-faire</span
+          >
+        </div>
+        <div class="section-heading">
+          <h2
+            data-fr="Des compétences au service de projets <em>concrets.</em>"
+            data-en="Skills for building <em>real projects.</em>"
+          >
+            Des compétences au service de projets <em>concrets.</em>
+          </h2>
+          <p
+            data-fr="Je combine développement, conception et organisation pour passer d'une idée à une réalisation structurée."
+            data-en="I combine development, design and organisation to turn an idea into a structured result."
+          >
+            Je combine développement, conception et organisation pour passer
+            d'une idée à une réalisation structurée.
+          </p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-number">01</span>
+            <div class="skill-icon">⌘</div>
+            <h3 data-fr="Développement web" data-en="Web development">
+              Développement web
+            </h3>
+            <p
+              data-fr="Création d'interfaces responsives et accessibles, de l'idée jusqu'à la mise en ligne."
+              data-en="Building responsive and accessible interfaces, from the initial idea to deployment."
+            >
+              Création d'interfaces responsives et accessibles, de l'idée
+              jusqu'à la mise en ligne.
+            </p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span
+              ><span>Django</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">02</span>
+            <div class="skill-icon">◒</div>
+            <h3
+              data-fr="Conception & organisation"
+              data-en="Design & organisation"
+            >
+              Conception & organisation
+            </h3>
+            <p
+              data-fr="Conception de maquettes et participation à l'organisation des étapes d'un projet en équipe."
+              data-en="Designing mockups and helping organise project milestones as part of a team."
+            >
+              Conception de maquettes et participation à l'organisation des
+              étapes d'un projet en équipe.
+            </p>
+            <div class="tags">
+              <span>Figma</span><span>Google Stitch</span
+              ><span>Planification</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">03</span>
+            <div class="skill-icon">✦</div>
+            <h3 data-fr="Données & outils" data-en="Data & tools">
+              Données & outils
+            </h3>
+            <p
+              data-fr="Utilisation d'outils de développement, de gestion de données et de publication pour produire un travail structuré."
+              data-en="Using development, data management and publishing tools to deliver structured work."
+            >
+              Utilisation d'outils de développement, de gestion de données et de
+              publication pour produire un travail structuré.
+            </p>
+            <div class="tags">
+              <span>MySQL</span><span>WordPress</span><span>OpenCode</span
+              ><span>OpenDesign</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="soft-skills section-wrap" id="savoir-etre">
+        <div class="section-label">
+          <span>03</span
+          ><span data-fr="Mon savoir-être" data-en="Soft skills"
+            >Mon savoir-être</span
+          >
+        </div>
+        <div class="soft-skills-content">
+          <div>
+            <h2
+              data-fr="Apprendre, collaborer, <em>progresser.</em>"
+              data-en="Learn, collaborate, <em>grow.</em>"
+            >
+              Apprendre, collaborer, <em>progresser.</em>
+            </h2>
+            <p
+              data-fr="Alumni du programme 10 000 Codeurs, je développe mon sens de l'engagement et ma capacité à apprendre dans un environnement collectif."
+              data-en="As an alumnus of the 10,000 Coders programme, I am developing my commitment and ability to learn in a collaborative environment."
+            >
+              Alumni du programme 10 000 Codeurs, je développe mon sens de
+              l'engagement et ma capacité à apprendre dans un environnement
+              collectif.
+            </p>
+          </div>
+          <div class="soft-tags">
+            <span>Curiosité</span><span>Rigueur</span
+            ><span>Esprit d'équipe</span><span>Autonomie</span
+            ><span>Adaptabilité</span><span>Anglais conversationnel</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section-wrap" id="parcours">
+        <div class="section-label">
+          <span>04</span
+          ><span data-fr="Parcours" data-en="Background">Parcours</span>
+        </div>
+        <div class="experience-card">
+          <span class="project-type">2026 — AUJOURD'HUI</span>
+          <h2
+            data-fr="À la recherche d'une première <em>immersion professionnelle.</em>"
+            data-en="Looking for a first <em>professional opportunity.</em>"
+          >
+            À la recherche d'une première <em>immersion professionnelle.</em>
+          </h2>
+          <p
+            data-fr="Je souhaite rejoindre une équipe qui me permettra de mettre mes compétences en pratique, de contribuer à des projets utiles et de continuer à apprendre auprès de professionnels."
+            data-en="I am looking to join a team where I can apply my skills, contribute to useful projects and keep learning alongside professionals."
+          >
+            Je souhaite rejoindre une équipe qui me permettra de mettre mes
+            compétences en pratique, de contribuer à des projets utiles et de
+            continuer à apprendre auprès de professionnels.
+          </p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span
+            ><span>Django</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="education section-wrap" id="formation">
+        <div class="section-label">
+          <span>05</span
+          ><span data-fr="Formation" data-en="Education">Formation</span>
+        </div>
+        <div class="education-card">
+          <span class="project-type">2026</span>
+          <h2>Licence en informatique de gestion</h2>
+          <p
+            data-fr="École Spéciale de Commerce d'Administration et de l'Entrepreneuriat"
+            data-en="École Spéciale de Commerce d'Administration et de l'Entrepreneuriat"
+          >
+            École Spéciale de Commerce d'Administration et de l'Entrepreneuriat
+          </p>
+        </div>
+      </section>
+
+      <section class="projects section-wrap" id="projets">
+        <div class="section-label">
+          <span>06</span
+          ><span data-fr="Projets sélectionnés" data-en="Selected projects"
+            >Projets sélectionnés</span
+          >
+        </div>
+        <div class="projects-heading">
+          <h2
+            data-fr="Des idées transformées en <em>projets concrets.</em>"
+            data-en="Ideas turned into <em>real projects.</em>"
+          >
+            Des idées transformées en <em>projets concrets.</em>
+          </h2>
+          <p
+            data-fr="Des réalisations qui montrent mon intérêt pour le numérique, la gestion de projet et le travail en équipe."
+            data-en="Projects that show my interest in digital work, project management and teamwork."
+          >
+            Des réalisations qui montrent mon intérêt pour le numérique, la
+            gestion de projet et le travail en équipe.
+          </p>
+        </div>
+        <div class="project-list">
+          <article class="project project-extra">
+            <div class="project-visual extra-visual">
+              <iframe
+                src="https://docs.google.com/document/d/e/2PACX-1vRXv-oWSctjGKzaaPRZXF6JYNYCpGrnylIuJcT4fQ-3kWnjEWfdN5loM4g56hYv1DPvf5V3y0uyG_Wx/pub?embedded=true"
+                title="Présentation du projet EXTRA WASH"
+                loading="lazy"
+              ></iframe>
+            </div>
+            <div class="project-info">
+              <span class="project-type"
+                >01 — CRÉATION D'ENTREPRISE / ÉQUIPE DE 3</span
+              >
+              <h3>EXTRA WASH</h3>
+              <p
+                data-fr="Projet de création d'une entreprise de lavage automobile, moto et divers, implantée à Hamdallaye ACI 2000 à Bamako. Porté avec Sidiki Tiozanga TRAORÉ et Saïbou SAKO, le projet couvre l'offre, l'organisation et le cadre légal de l'entreprise."
+                data-en="A business creation project for a car, motorcycle and general cleaning company based in Hamdallaye ACI 2000, Bamako. Led with Sidiki Tiozanga TRAORÉ and Saïbou SAKO, the project covers the offer, organisation and legal framework of the company."
+              >
+                Projet de création d'une entreprise de lavage automobile, moto
+                et divers, implantée à Hamdallaye ACI 2000 à Bamako. Porté avec
+                Sidiki Tiozanga TRAORÉ et Saïbou SAKO, le projet couvre l'offre,
+                l'organisation et le cadre légal de l'entreprise.
+              </p>
+              <a
+                href="https://docs.google.com/document/d/e/2PACX-1vRXv-oWSctjGKzaaPRZXF6JYNYCpGrnylIuJcT4fQ-3kWnjEWfdN5loM4g56hYv1DPvf5V3y0uyG_Wx/pub"
+                target="_blank"
+                rel="noreferrer"
+                data-fr="Lire le projet complet ↗"
+                data-en="Read the full project ↗"
+                >Lire le projet complet ↗</a
+              >
+            </div>
+          </article>
+          <article class="project project-vote">
+            <div class="project-visual vote-visual">
+              <div class="vote-grid"></div>
+              <div class="vote-brand">V<span>◼</span></div>
+              <div class="vote-title">Your vote<br /><b>has power.</b></div>
+              <div class="vote-pill">WEB3</div>
+            </div>
+            <div class="project-info">
+              <span class="project-type">02 — MIABE HACKATON / ÉQUIPE 3</span>
+              <h3>VoteLedger</h3>
+              <p
+                data-fr="Une plateforme créée pour présenter VoteLedger lors du MiabeHackaton avec l'équipe 3, autour d'une expérience de vote numérique transparente."
+                data-en="A platform created to present VoteLedger during MiabeHackaton with team 3, focused on a transparent digital voting experience."
+              >
+                Une plateforme créée pour présenter VoteLedger lors du
+                MiabeHackaton avec l'équipe 3, autour d'une expérience de vote
+                numérique transparente.
+              </p>
+              <a
+                href="https://vote-ledger-two.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                data-fr="Visiter le projet ↗"
+                data-en="Visit project ↗"
+                >Visiter le projet ↗</a
+              >
+            </div>
+          </article>
+          <article class="project project-school">
+            <div class="project-visual school-visual">
+              <div class="school-window">
+                <span>School</span><b>App</b><i></i><i></i><i></i>
+              </div>
+              <div class="school-screen">
+                <span>STUDENTS</span><strong>Manage<br />with clarity.</strong
+                ><small>Django · Figma · Stitch</small>
+              </div>
+            </div>
+            <div class="project-info">
+              <span class="project-type"
+                >03 — APPLICATION DE GESTION SCOLAIRE</span
+              >
+              <h3>SchoolApp</h3>
+              <p
+                data-fr="Application de gestion scolaire conçue avec Django. J'ai réalisé le design avec Figma et Google Stitch et participé au développement de l'application. Projet en cours de finalisation."
+                data-en="A school management application built with Django. I designed the interface with Figma and Google Stitch and contributed to the application development. Project currently being finalised."
+              >
+                Application de gestion scolaire conçue avec Django. J'ai réalisé
+                le design avec Figma et Google Stitch et participé au
+                développement de l'application. Projet en cours de finalisation.
+              </p>
+              <a
+                href="https://github.com/timakeita01-beep/School_App"
+                target="_blank"
+                rel="noreferrer"
+                data-fr="Voir sur GitHub ↗"
+                data-en="View on GitHub ↗"
+                >Voir sur GitHub ↗</a
+              >
+            </div>
+          </article>
+          <article class="project project-password">
+            <div class="project-visual password-visual">
+              <div class="password-window">
+                <span class="password-dots"><i></i><i></i><i></i></span>
+                <span class="password-label">SECURE PASSWORD</span>
+                <strong>••••••••••••</strong>
+                <div class="password-strength">
+                  <span></span><span></span><span></span><span></span>
+                </div>
+                <small>Strong password generated</small>
+              </div>
+              <div class="password-code">
+                &lt;HTML /&gt; <b>CSS</b> <em>JS</em>
+              </div>
+            </div>
+            <div class="project-info">
+              <span class="project-type">04 — PROJET EN COURS</span>
+              <h3>Secure Password Generator</h3>
+              <p
+                data-fr="Programme de génération de mots de passe sécurisés réalisé avec HTML, CSS et JavaScript. Projet en cours de développement, pensé pour créer des mots de passe robustes et faciles à utiliser."
+                data-en="A secure password generator built with HTML, CSS and JavaScript. This work in progress is designed to create strong passwords that are easy to use."
+              >
+                Programme de génération de mots de passe sécurisés réalisé avec
+                HTML, CSS et JavaScript. Projet en cours de développement, pensé
+                pour créer des mots de passe robustes et faciles à utiliser.
+              </p>
+              <a
+                href="#contact"
+                data-fr="Projet en cours ↗"
+                data-en="Work in progress ↗"
+                >Projet en cours ↗</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section-wrap" id="contact">
+        <div class="contact-panel">
+          <div class="section-label">
+            <span>07</span
+            ><span data-fr="Travaillons ensemble" data-en="Let's work together"
+              >Travaillons ensemble</span
+            >
+          </div>
+          <h2
+            data-fr="Construisons quelque chose<br><em>d'utile.</em>"
+            data-en="Let's build something<br><em>useful.</em>"
+          >
+            Construisons quelque chose<br /><em>d'utile.</em>
+          </h2>
+          <p
+            data-fr="Une opportunité, une question ou un projet ? Écrivez-moi, je vous répondrai avec plaisir."
+            data-en="An opportunity, a question or a project? Send me a message and I will be happy to reply."
+          >
+            Une opportunité, une question ou un projet ? Écrivez-moi, je vous
+            répondrai avec plaisir.
+          </p>
+          <a
+            class="button button-light"
+            href="mailto:mamadousantara37@gmail.com"
+            >mamadousantara37@gmail.com <span>↗</span></a
+          >
+          <div class="contact-orb"></div>
+        </div>
+        <div class="contact-details">
+          <a href="mailto:mamadousantara37@gmail.com"
+            ><strong>Email</strong><span>mamadousantara37@gmail.com</span></a
+          ><a href="tel:+22392379007"
+            ><strong>Téléphone</strong><span>+223 92 37 90 07</span></a
+          ><span
+            ><strong>Localisation</strong
+            ><span>Djicoroni-Para, Bamako</span></span
+          ><a
+            href="Mamadou SANTARA CV.pdf.pdf"
+            download="Mamadou-Santara-CV.pdf"
+            ><strong>CV</strong><span>Télécharger le PDF</span></a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-wrap">
+      <span>&copy; 2026</span><span>Conçu par Mamadou SANTARA<b>✦</b></span>
+      <div><a href="#accueil">Retour en haut ↑</a></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
